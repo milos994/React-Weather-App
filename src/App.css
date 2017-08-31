@@ -1,0 +1,32 @@
+form, h1 {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dotted #000;
+  margin-left: .5em;
+  font-size: 1em;
+  outline: none;
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 0 auto;  
+}
+
+.temp-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+  .temp {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .temp-symbol {
+    position: absolute;
+    top: 10px;
+    margin-left: 4px;
+  }
